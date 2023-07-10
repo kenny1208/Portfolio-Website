@@ -173,6 +173,79 @@ body {
         }
       }
     }
+
+    table.contact {
+      position: relative;
+      top: 30%;
+      left: 5%;
+      padding: 1rem;
+      border-collapse: separate;
+      border-spacing: 0;
+      border-radius: 10px;
+
+      width: 30%;
+      background-color: #35838c98;
+      color: aliceblue;
+      tr.mail {
+        font-size: 200%;
+        th {
+          address {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            img {
+              width: 10%;
+            }
+            a {
+              color: aliceblue;
+              text-decoration: none;
+            }
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid aliceblue;
+          }
+        }
+      }
+
+      tr.sociel {
+        td {
+          address {
+            display: flex;
+            a {
+              display: flex;
+              justify-content: space-around;
+              img {
+                width: 40%;
+              }
+            }
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid aliceblue;
+          }
+        }
+      }
+
+      tr.home {
+        font-size: 125%;
+        td {
+          address {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            img {
+              width: 10%;
+            }
+            a {
+              color: aliceblue;
+              text-decoration: none;
+            }
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid aliceblue;
+          }
+        }
+      }
+    }
   }
 }
 
